@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- window background -->
+        <item name="android:windowBackground">@color/lightMain</item>
+
+        <!-- import EditText style -->
+        <item name="android:editTextStyle">@style/EditText</item>
+
+        <!-- general highlighting colors -->
+        <item name="colorControlNormal">@color/darkSecond</item>
+        <item name="colorControlActivated">@color/strongBlue</item>
+        <item name="colorControlHighlight">@color/darkSecond</item>
+
+        <!-- import button style -->
+        <item name="android:buttonStyle">@style/Button</item>
+        <item name="buttonStyle">@style/Button</item>
+
+    </style>
+
+    <!-- Text View -->
+    <style name="TextView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <!-- Hint Text View -->
+    <style name="HintTextView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- Button -->
+    <style name="Button" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/lightSecond</item>
+        <item name="android:textColor">@color/darkSecond</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">15dp</item>
+    </style>
+
+    <!-- Edit Text -->
+    <style name="EditText" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/darkSecond</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- some custom colors -->
+    <color name="lightMain">#eae7ff</color>
+    <color name="lightSecond">#dedbf3</color>
+    <color name="darkMain">#131334</color>
+    <color name="darkSecond">#191952</color>
+    <color name="strongBlue">#4439ae</color>
+</resources>

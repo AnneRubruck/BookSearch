@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Splash Screen Animation -->
+
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/flaganim"
+    android:oneshot="true"
+    android:variablePadding="true">
+    <!-- oneshot = false -> loop the images -->
+
+    <item android:drawable="@drawable/splashscreen_0_300x232" android:duration="500" />
+    <item android:drawable="@drawable/splashscreen_1_300x232" android:duration="500" />
+    <item android:drawable="@drawable/splashscreen_2_300x232" android:duration="500" />
+    <item android:drawable="@drawable/splashscreen_3_300x232" android:duration="500" />
+    <item android:drawable="@drawable/splashscreen_4_300x232" android:duration="500" />
+
+</animation-list>

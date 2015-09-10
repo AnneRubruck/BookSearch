@@ -1,0 +1,45 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomeScreen">
+
+    <!-- got to Favorites -->
+    <item
+        android:id="@+id/action_favorites"
+        android:title="@string/favorites"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_stars_white_18dp"
+        app:showAsAction="ifRoom|withText" />
+
+    <!-- Settings -->
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="101"
+        app:showAsAction="never" />
+
+    <!-- go to general business terms (AGB) -->
+    <item
+        android:id="@+id/action_business_terms"
+        android:title="@string/general_business_terms"
+        android:orderInCategory="102"
+        app:showAsAction="never" />
+
+    <!-- go to legal information (Impressum) -->
+    <item
+        android:id="@+id/legal_information"
+        android:title="@string/legal_information"
+        android:orderInCategory="103"
+        app:showAsAction="never" />
+
+    <!-- Exit the app -->
+    <item
+        android:id="@+id/action_exit"
+        android:title="@string/exit"
+        android:orderInCategory="104"
+        app:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_highlight_off_white_18dp"/>
+
+
+</menu>

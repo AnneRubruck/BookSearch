@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BookSearch</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="published_by">publiziert von</string>
+    <string name="written_by">verfasst von</string>
+    <string name="publication_date">Veröffentlichungsdatum: </string>
+    <string name="edition">Edition: </string>
+    <string name="author">Autor: </string>
+    <string name="authors">Autoren: </string>
+    <string name="publisher">Herausgeber: </string>
+    <string name="legal_information">Impressum</string>
+    <string name="general_business_terms">AGB</string>
+    <string name="favorites">Favoriten</string>
+    <string name="exit">Schließen</string>
+    <string name="bs_search_results">BookSearch - Suchergebnisse</string>
+    <string name="bs_home">BookSearch - Home</string>
+    <string name="bs_favorites">BookSearch - Favoriten</string>
+    <string name="bs_details">BookSearch - Details</string>
+    <string name="search">Suche</string>
+    <string name="search_editText_hint">Titel, ISBN oder Keywords eingeben</string>
+    <string name="legal_information_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc...</string>
+    <string name="businessInformationText">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,...</string>
+    <string name="bs_information">BookSearch - Informationen</string>
+    <string name="businessInformationTitle">AGB</string>
+    <string name="legal_information_title">IMPRESSUM</string>
+    <string name="language">Sprache</string>
+    <string name="bs_settings">BookSearch - Einstellungen</string>
+    <string name="choose_language">Sprache wählen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="deleteFromFavCheck">Wollen Sie diesen Titel wirklich entfernen: </string>
+    <string name="ok">Ok</string>
+    <string name="remove">Entfernen?</string>
+    <string name="database_missing">Bei der Erstellung der Favoriten-Datenbank trat ein Fehler auf</string>
+    <string name="error_while_connecting_to_amazon">Bei der Verbindung mit Amazon trat ein Fehler auf.</string>
+    <string name="error_while_reading_answer_from_amazon">Beim Lesen der Antwort von Amazon trat ein Fehler auf.</string>
+    <string name="no_search_results_found">Keine Suchergebnisse...</string>
+    <string name="please_type_in">Bitte geben Sie einen Buchtitle, die ISBN oder Stichworte ein.</string>
+    <string name="serching">Suche...</string>
+</resources>

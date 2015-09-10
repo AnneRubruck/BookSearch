@@ -1,0 +1,71 @@
+<!-- screen layout to use in landscape mode -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!-- 1/2 of the width -->
+    <!-- left side containing the titles and the last page / next page buttons -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- titles -->
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/titlesFragment"
+            class="rubruck.booksearch.searchResults.SearchResultsFragment"
+            tools:layout="@layout/search_results_layout" />
+
+        <!-- page information below -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_left_outline_black_18dp"
+                android:id="@+id/lastPageImageView"
+                android:onClick="onLastPageClick"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginBottom="7dp"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:id="@+id/pagesTextView"
+                style="@style/TextView"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_right_outline_black_18dp"
+                android:id="@+id/nextPageImageView"
+                android:onClick="onNextPageClick"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- 1/2 of the width -->
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@color/lightSecond"
+        android:id="@+id/details"
+        android:layout_weight="1">
+    </FrameLayout>
+
+</LinearLayout>
